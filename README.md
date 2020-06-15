@@ -38,7 +38,7 @@ If Developer push  to dev1(feature) branch then Jenkins will fetch from dev1 and
   <li> -p 8089:80 This exposes the port no. 8089 of particular image to make it accessible from outside world. </li>
   <li> -v /root/testtask/: This shows that an outside volume is attached to destination folder of particular container.
 </ul>
-Whenever any new commit occurs in dev1 branch, it downloads the code and deploy it in this container image. And testing is done on this     server only. Only if code is properly working then only it will get deployed on master server.
+Whenever any new commit occurs in dev1 branch, it downloads the code and deploy it in this container image. And testing is done on this     server. Only if the code is working then only it will get deployed on the master server.
 
 <h2>#Job-2</h2>
 
