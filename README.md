@@ -10,7 +10,7 @@ Setup up infrastructure, for the three team's or environemnts :
 3.Quality Assurance Team
 
 Production Team will deploy the code first.
-And with work going on in the developement team, the code will be deployed on the testing environment, which will then be tested by the QA team and only after the approval of QA team the code will get deployed on the production environment. 
+And with the work going on in the developement team, the code will be deployed on the testing environment, which will be then tested by the QA team and only after their approval the code will get deployed on the production environment. 
 
 <h2>Requirements:</h2>
 
