@@ -25,7 +25,7 @@ And with the work going on in the developement team, the code will be deployed o
 
 <h2>My Project:</h2>
 
-I have made 3 jobs each for production, testing and Quality Assurance Team.
+I have made 3 jobs:- each for production, testing and Quality Assurance Team.
 
 <h2>#Job-1</h2>
 
@@ -38,7 +38,7 @@ If Developer push  to dev1(feature) branch then Jenkins will fetch from dev1 and
   <li> -p 8089:80 This exposes the port no. 8089 of particular image to make it accessible from outside world. </li>
   <li> -v /root/testtask/: This shows that an outside volume is attached to destination folder of particular container.
 </ul>
-Whenever any new commit occurs in dev1 branch, it downloads the code and deploy in this container image. And testing is done on this     server only. Only if this code is properly working then only it will be deployed on master server.
+Whenever any new commit occurs in dev1 branch, it downloads the code and deploy it in this container image. And testing is done on this     server only. Only if code is properly working then only it will get deployed on master server.
 
 <h2>#Job-2</h2>
 
@@ -51,7 +51,7 @@ If Developer push to master branch then Jenkins will fetch from master and deplo
   <li> -p 8088:80 This exposes the port no. 8088 of particular image to make it accessible from outside world. </li>
   <li> -v /root/prodtask/: This shows that an outside volume is attached to destination folder of particular container.
 </ul>
-Whenever any new commit occurs in master branch, it downloads the code and deploy in this container image.
+Whenever any new commit occurs in master branch, it downloads the code and deploy it in this container image.
 
 Both dev1-docker and master-docker environment are launched on different docker containers.
 
